@@ -1,0 +1,119 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre HTML en Bloc de Notas</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: #2c3e50;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            text-align: justify;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+            font-size: 1.3em;
+            text-align: left;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        img {
+            display: block;
+            margin: 30px auto;
+            border-radius: 10px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            background-color: #2980b9;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #1f6391;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #95a5a6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Primer título -->
+        <h1>TEMA: HTML en Bloc de Notas</h1>
+
+        <!-- Segundo título -->
+        <h2>Lista de Integrantes</h2>
+        <ul>
+            <li>Joffre Cevallos Ceballos</li>
+            <li>Xavier Granizo Molina</li>
+            <li>Stefania Bajaña Yagual</li>
+        </ul>
+
+        <!-- Subtítulo -->
+        <h2>¿Qué es el HTML?</h2>
+        <p>En si HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes de contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen hipervínculo a otro sitio.</p>
+
+        <!-- Subtítulo -->
+        <h2>¿Para qué sirve el HTML?</h2>
+        <p>HTML es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplos, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.</p>
+
+        <!-- Subtítulo -->
+        <h2>¿Cómo funciona y usos actuales?</h2>
+        <p>HTML funciona como un lenguaje que ayuda a elaborar páginas web mediante comandos que ordenan a un navegador a mostrar cierta información al visitante. Gracias a este es posible definir la estructura de un sitio y englobar a todos los elementos deberán aparecer en el mismo. los usos actuales de este son
+Su funcionamiento requiere de tres grandes pasos: la escritura y la carga, que corresponden a los desarrolladores web; y la interpretación, que se lleva a cabo por parte de los navegadores, los usos actuales son: 
+
+•	Estructuración de páginas web
+•	Interacción con CSS y JavaScript
+•	Diseño responsivo
+•	Desarrollo de aplicaciones web
+•	Optimización para motores de búsqueda (SEO).
+</p>
+
+        <!-- Imagen centrada -->
+        <img src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/html-tagst.jpg" width="400" height="200" alt="Ejemplo de HTML">
+
+        <!-- Hipervínculo a la segunda página -->
+        <a href="https://joffre-c.github.io/githubpage2/">Click para avanzar con la siguiente página web</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Página creada con Bloc de Notas
+    </footer>
+</body>
+</html>
